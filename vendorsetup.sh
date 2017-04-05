@@ -1,0 +1,1 @@
+add_lunch_combo tesla_v500-userdebug

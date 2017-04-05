@@ -114,8 +114,8 @@
             32 - Camera
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
-         config to 7. -->
-    <integer name="config_deviceHardwareWakeKeys">64</integer>
+         config to 7.
+    <integer name="config_deviceHardwareWakeKeys">64</integer> -->
 
     <!-- Flag indicating whether the we should enable the automatic brightness in Settings.
          Software implementation will be used if config_hardware_auto_brightness_available is not set -->
@@ -250,9 +250,9 @@
     <bool name="config_supportDoubleTapWake">true</bool>
 
     <!-- Support in Surfaceflinger for blur layers.
-         NOTE: This requires additional hardware-specific code. -->
-    <bool name="config_uiBlurEnabled">true</bool>
+         NOTE: This requires additional hardware-specific code.
+    <bool name="config_uiBlurEnabled">true</bool> -->
 
-    <!-- Whether to enable HumanInteractionController by default -->
-    <bool name="config_HICEnabledDefault">false</bool>
+    <!-- Whether to enable HumanInteractionController by default
+    <bool name="config_HICEnabledDefault">false</bool> -->
 </resources>
